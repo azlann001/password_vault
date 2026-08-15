@@ -1,0 +1,28 @@
+# Virtual environment (if you develop using one locally)
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive vault files — NEVER commit these
+m_pwd.txt
+vault.enc
+vault_plain.json
+vault_view.json
+
+# macOS junk
+.DS_Store
+__MACOSX/
+._*
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# Editor/IDE folders
+.vscode/
+.idea/
