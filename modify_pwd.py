@@ -156,7 +156,7 @@ def delete_pwd():
     print(f"\nYou are about to delete entry [{index + 1}] — site: {record['site']}, username: {record['username']}")
     confirm = input("Type 'y' to confirm deletion, anything else to cancel : ")
 
-    if confirm.lower() not in "y":
+    if confirm.lower() != "y":
         print("Deletion cancelled.")
         return
 
