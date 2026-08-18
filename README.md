@@ -48,6 +48,8 @@ While installing, **make sure to check the box that says "Add Python to PATH"** 
 
 - **Mac:** Right click on the folder and click on **"New Terminal at Folder"**
 
+- **Linux:** Right click on the folder and click on **Open in terminal**
+
 You should now see a blinking cursor waiting for you to type.
 
 ### Step 3 — Install the required tools
