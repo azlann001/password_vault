@@ -23,8 +23,14 @@ def view_pwd():
         print("Error Wrong password try again...")
 
     key = derive_key(input_pwd)
-    with open("vault.enc", "rb") as f:
-        enc_dat = f.read()
+
+    try :
+
+        with open("vault.enc", "rb") as f:
+            enc_dat = f.read()
+    except FileNotFoundError :
+        print(" Uh-oh...vault doesnot exist yet...try again after adding entries ")     # when vault doesnt exists
+        return
 
     try:
         dec_dat = Fernet(key).decrypt(enc_dat)
@@ -37,7 +43,7 @@ def view_pwd():
     all_keys = set()        # showing the data
 
     if not data :
-        print("\nuh-oh...Vault empty...")
+        print("\nuh-oh...Vault empty...")           # when vault exists but it's empty
         return
 
     for record in data:
