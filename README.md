@@ -150,4 +150,4 @@ There is currently no recovery option — this is by design, since a recoverable
 - [`bcrypt`](https://pypi.org/project/bcrypt/) — master password hashing
 - [`cryptography`](https://pypi.org/project/cryptography/) (Fernet) — vault encryption
 - [`pyperclip`](https://pypi.org/project/pyperclip/) — clipboard support for generated passwords
-- `Coffee and late night debugging`
+- `Lots of Coffee and late night debugging sessions...`
