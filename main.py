@@ -141,13 +141,14 @@ def main_login() :    # main funcion for the login process
     if choice == "1" :
         register_m_pwd()
 
+       
     elif choice == "2" :
 
         try :
-            with open("m_pwd.txt" , "rb" ) as f :
+            with open( "m_pwd.txt" , "rb" ) as f :
                 f.read()
         except :
-            print("Please register first...")
+            print("\nPlease register first...\n")
             register_m_pwd()
         else :
             login()
