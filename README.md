@@ -7,7 +7,7 @@
 |_|   \__,_|___/___/ \_/\_/ \___/|_|  \__,_|      \/ \__,_|\__,_|_|\__|
 ```
 
-> **Class XII 2026 Summer Project** — Menu Driven, File Handling, Hashing & Password Encryption.
+> Menu Driven, File Handling, Hashing & Password Encryption.
 
 ⎬ -------------------------------- ⎨
 
